@@ -7,18 +7,29 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Frontend
+node_modules/
+dist/
+dist-ssr/
 *.local
 
-# Editor directories and files
+# Backend
+.env
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Android
+android/.gradle/
+android/build/
+android/local.properties
+
+# Editor
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
+
+# OS
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
