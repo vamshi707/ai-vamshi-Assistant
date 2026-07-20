@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Vamshi AI Assistant</string>
+    <string name="title_activity_main">Vamshi AI Assistant</string>
+    <string name="package_name">com.vamshi.aiassistant</string>
+    <string name="custom_url_scheme">com.vamshi.aiassistant</string>
+</resources>

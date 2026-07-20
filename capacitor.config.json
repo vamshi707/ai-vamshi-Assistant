@@ -1,0 +1,8 @@
+{
+  "appId": "com.vamshi.aiassistant",
+  "appName": "Vamshi AI Assistant",
+  "server": {
+    "url": "https://radiant-alfajores-e3d31a.netlify.app/",
+    "cleartext": false
+  }
+}
