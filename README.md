@@ -6,6 +6,30 @@ This project is an AI-powered Customer Relationship Management (CRM) system for 
 
 ---
 
+## 🚀 Live Application
+
+**Web App:**  
+https://radiant-alfajores-e3d31a.netlify.app/
+
+**Android APK:**  
+## 🌐 Live Demo
+
+https://radiant-alfajores-e3d31a.netlify.app/
+
+## 📱 Android APK
+
+[Download Vamshi AI Assistant APK](./apk/VamshiAIAssistant.apk)
+Download from the `apk/` folder in this repository.
+
+note this point:
+
+The first request takes about 30 seconds because Render is "waking up".
+
+That's normal on Render's free-tier services. After a period of inactivity, the service can go to sleep. The first request wakes it up, which can take some time. Once it's awake, later requests are much faster.
+
+
+---
+
 ## Tech Stack
 
 - Frontend: React + Redux
@@ -13,7 +37,7 @@ This project is an AI-powered Customer Relationship Management (CRM) system for 
 - AI Framework: LangGraph
 - LLM: Groq (Gemma2-9B-IT)
 - Database: MySQL
-- Font: Google Inter
+- Android: Capacitor + Android Studio
 
 ---
 
@@ -27,6 +51,7 @@ This project is an AI-powered Customer Relationship Management (CRM) system for 
 - Delete Interaction
 - View Interaction History
 - AI Follow-up Suggestions
+- Android Mobile Application
 
 ---
 
@@ -42,11 +67,14 @@ This project is an AI-powered Customer Relationship Management (CRM) system for 
 
 ## Project Structure
 
-```
+```text
 AI-CRM
 │
-├── backend
-└── frontend
+├── app                 # FastAPI Backend
+├── src                 # React Frontend
+├── android             # Android Studio Project
+├── apk                 # Android APK
+└── README.md
 ```
 
 ---
@@ -62,7 +90,6 @@ User → React UI → FastAPI → LangGraph → Groq LLM → MySQL Database
 ### Backend
 
 ```bash
-cd backend
 pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
@@ -70,7 +97,6 @@ uvicorn app.main:app --reload
 ### Frontend
 
 ```bash
-cd frontend
 npm install
 npm run dev
 ```
@@ -84,3 +110,9 @@ npm run dev
 - Voice Input
 - Export Reports (PDF/Excel)
 
+---
+
+## Author
+
+**Vamshi**  
+Python Full Stack Developer | React | FastAPI | LangGraph | AI Integration
